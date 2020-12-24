@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Play&display=swap');
+
+.app-container {
+    text-align: left;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: url("./assets/images/header-top.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    color: rgb(255, 255, 255, 1);
+}
+
+    header h1 {
+        font-size: 40px;
+        margin: 0 0 0 25px;
+        font-family: 'Marck Script', cursive;
+        font-weight: 100;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+.header-logo {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.public-navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-weight: 500;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: burlywood;
+}
+
+.public-navbar-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: saddlebrown;
+    text-shadow: 5px;
+    text-decoration: none;
+    float: right;
+    font-size: 1.50rem;
+    font-family: 'Play', sans-serif;
+}
+
+.public-navbar-link:hover {
+    background: transparent;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+main {
+    display: inline-block;
+}
+
+/*@media (max-height: 600px) {
+    .public-navbar-list {
+        color: black;
+    }
+}*/
