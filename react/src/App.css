@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto&display=swap');
 
 .app-container {
-    text-align: left;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    height: 100vh;
 }
 
 html {
@@ -9,61 +13,113 @@ html {
 }
 
 header {
+    position: relative;
     background: url("./assets/images/header-top.jpg") no-repeat center center;
     background-size: cover;
-    height: 300px;
-    color: rgb(255, 255, 255, 1);
+    height: 250px;
 }
 
-    header h1 {
-        font-size: 40px;
-        margin: 0 0 0 25px;
-        font-family: 'Marck Script', cursive;
-        font-weight: 100;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-    }
+header h1 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: -5px;
+    word-spacing: -25px;
+    text-shadow: -1px 0 white, 0 1px black, 1px 0 black, 0 -1px white;
+    font-size: 3.5rem;
+    font-family: 'Marck Script', cursive;
+    font-weight: 100;
+    color: black;
+    overflow: visible;
+    padding-top: 20px;
+}
 
 .header-logo {
-    height: 40px;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    text-align:center;
 }
 
+.social-navbar-list,
 .public-navbar-list {
+    display: flex;
+    width: 25%;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    overflow: hidden;
-    font-weight: 500;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: burlywood;
+    justify-content: space-around;
 }
 
+.social-navbar-link,
 .public-navbar-link {
-    display: inline-block;
     padding: 0.5rem 1rem;
-    color: saddlebrown;
-    text-shadow: 5px;
+    color: black;
     text-decoration: none;
-    float: right;
-    font-size: 1.50rem;
-    font-family: 'Play', sans-serif;
+    font-size: 1.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    }
+
+.social-navbar-link {
+    font-size: .8rem;
+    color: white;
 }
 
 .public-navbar-link:hover {
     background: transparent;
-    color: rgb(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, .7);
 }
 
-main {
-    display: inline-block;
+.social-navbar-link:hover {
+    background-color: white;
+    color: black;
 }
 
-/*@media (max-height: 600px) {
-    .public-navbar-list {
-        color: black;
-    }
-}*/
+.social-nav,
+nav {
+    display: flex;
+    justify-content: center;
+    padding:2px 0;
+    width: 100%;
+    background-color:white;
+    margin: auto;
+}
+
+.public-nav,
+.social-nav {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background: saddlebrown;
+    max-height: 2rem;
+    padding: 2px 0;
+    margin: 2px 0;
+}
+
+/* main{
+    position: relative;
+    background-color: white;
+    padding: 0 25px;
+    z-index: 500;
+    margin: 5px auto;
+    width: 80%;
+    border-radius: 20px;
+    border: solid saddlebrown 2px;
+    min-height:300px;
+    
+} */
+
+h1, p{
+    padding:0;
+    margin:0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.login-link {
+    justify-content: flex-end;
+}
