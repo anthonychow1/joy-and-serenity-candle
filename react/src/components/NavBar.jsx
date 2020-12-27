@@ -26,10 +26,10 @@ const NavBar = () => {
                 </li>
                 <li className="public-navbar-item">
                     <NavLink to={"/contact"} className="public-navbar-link">
-                        Contact Us
+                        Contact&nbsp;Us
                     </NavLink>
                 </li>
-                <li className="public-navbar-item">
+                <li className="public-navbar-item login-link">
                     <NavLink to={"/login"} className="public-navbar-link">
                         Login
                     </NavLink>
