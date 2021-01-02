@@ -1,0 +1,147 @@
+/***************about section***************/
+.about-section-container{
+    position: relative; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-section-image-container {
+    position: relative;
+    z-index: 500;
+    width: 100%;
+    white-space: nowrap;
+    margin-left: -50px;
+    overflow: hidden;
+}
+
+.about-section-photo{
+    position: relative;
+    display: inline;
+    height: 350px;
+    margin: 50px 0 50px 50px;
+    z-index: 500;
+}
+
+.about-section-candle{
+    position: relative;
+    display: inline;
+    height: 150px;
+    margin: 0px -100px 75px -50px;
+    z-index: 100;
+}
+
+.about-section-table{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: -150px;
+    padding: 150px 0 0 0px;
+    color: black;
+    z-index: 400;
+}
+
+.about-section-table > h1 {
+    font-family: 'Marck Script', cursive;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.about-section-table > p {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.about-section-table::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: gray;
+    opacity: .1;
+}
+
+/***************wood section***************/
+.wood-section-container{
+    position: relative; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wood-section-container::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+    background: url("../../assets/images/wood-bw.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.wood-section-content{
+    position: relative;
+    min-width: 350px;
+}
+/***************succulent section***************/
+.succulent-section-container{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.succulent-section-container::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+    background: url("../../assets/images/succulent-bw.png") no-repeat bottom right;
+    background-size: contain;
+}
+
+.succulent-section-content{
+    position: relative;
+}
+/***************product cards***************/
+.product-card-container{
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    flex-direction: column;
+}
+.product-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    flex-direction: column;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+    height: 200px;
+    width: 100%;
+}
+.product-card-footer,
+.product-card-header,
+.product-card-description {
+    font-size: 50px;
+    color: white;
+    overflow: hidden;
+}

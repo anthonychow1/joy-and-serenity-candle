@@ -10,6 +10,11 @@ const NavBar = () => {
         return (
             <ul className="public-navbar-list">
                 <li className="public-navbar-item">
+                    <NavLink to={"/"} className="public-navbar-link">
+                        Home
+                    </NavLink>
+                </li>
+                <li className="public-navbar-item">
                     <NavLink to={"/about"} className="public-navbar-link">
                         About
                     </NavLink>
@@ -40,7 +45,6 @@ const NavBar = () => {
 
     //return isLogged ? getPrivateRoutes(""):  getPublicRoutes();
     return getPublicRoutes();
-
 }
 
 export default NavBar;
