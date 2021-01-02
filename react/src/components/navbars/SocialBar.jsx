@@ -2,11 +2,8 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 //import PropTypes from "prop-types";
 
-//const [isLogged, setIsLogged] = useState(false);
-
 const SocialBar = () => {
 
-    const getPublicRoutes = () => {
         return (
             <ul className="social-navbar-list">
                 <li className="social-navbar-item">
@@ -31,11 +28,6 @@ const SocialBar = () => {
                 </li>
             </ul>
             );
-    }
-
-    //return isLogged ? getPrivateRoutes(""):  getPublicRoutes();
-    return getPublicRoutes();
-
 }
 
 export default SocialBar;
