@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/joy-and-serenity-candle/static/css/main.0559be4d.chunk.css",
+    "main.js": "/joy-and-serenity-candle/static/js/main.946c45f0.chunk.js",
+    "main.js.map": "/joy-and-serenity-candle/static/js/main.946c45f0.chunk.js.map",
+    "runtime-main.js": "/joy-and-serenity-candle/static/js/runtime-main.50a32544.js",
+    "runtime-main.js.map": "/joy-and-serenity-candle/static/js/runtime-main.50a32544.js.map",
+    "static/js/2.a6a878f1.chunk.js": "/joy-and-serenity-candle/static/js/2.a6a878f1.chunk.js",
+    "static/js/2.a6a878f1.chunk.js.map": "/joy-and-serenity-candle/static/js/2.a6a878f1.chunk.js.map",
+    "index.html": "/joy-and-serenity-candle/index.html",
+    "static/css/main.0559be4d.chunk.css.map": "/joy-and-serenity-candle/static/css/main.0559be4d.chunk.css.map",
+    "static/js/2.a6a878f1.chunk.js.LICENSE.txt": "/joy-and-serenity-candle/static/js/2.a6a878f1.chunk.js.LICENSE.txt",
+    "static/media/about-candle.7dcfacee.png": "/joy-and-serenity-candle/static/media/about-candle.7dcfacee.png",
+    "static/media/about-photo.0346e4ec.png": "/joy-and-serenity-candle/static/media/about-photo.0346e4ec.png",
+    "static/media/App.css": "/joy-and-serenity-candle/static/media/logo-leaves-candle.83b8bdc4.jpg",
+    "static/media/sections.css": "/joy-and-serenity-candle/static/media/wood-bw.2b621688.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50a32544.js",
+    "static/js/2.a6a878f1.chunk.js",
+    "static/css/main.0559be4d.chunk.css",
+    "static/js/main.946c45f0.chunk.js"
+  ]
+}
