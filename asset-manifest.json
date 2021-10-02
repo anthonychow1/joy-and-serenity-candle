@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/joy-and-serenity-candle/static/css/main.0559be4d.chunk.css",
-    "main.js": "/joy-and-serenity-candle/static/js/main.946c45f0.chunk.js",
-    "main.js.map": "/joy-and-serenity-candle/static/js/main.946c45f0.chunk.js.map",
-    "runtime-main.js": "/joy-and-serenity-candle/static/js/runtime-main.50a32544.js",
-    "runtime-main.js.map": "/joy-and-serenity-candle/static/js/runtime-main.50a32544.js.map",
-    "static/js/2.a6a878f1.chunk.js": "/joy-and-serenity-candle/static/js/2.a6a878f1.chunk.js",
-    "static/js/2.a6a878f1.chunk.js.map": "/joy-and-serenity-candle/static/js/2.a6a878f1.chunk.js.map",
-    "index.html": "/joy-and-serenity-candle/index.html",
-    "static/css/main.0559be4d.chunk.css.map": "/joy-and-serenity-candle/static/css/main.0559be4d.chunk.css.map",
-    "static/js/2.a6a878f1.chunk.js.LICENSE.txt": "/joy-and-serenity-candle/static/js/2.a6a878f1.chunk.js.LICENSE.txt",
-    "static/media/about-candle.7dcfacee.png": "/joy-and-serenity-candle/static/media/about-candle.7dcfacee.png",
-    "static/media/about-photo.0346e4ec.png": "/joy-and-serenity-candle/static/media/about-photo.0346e4ec.png",
-    "static/media/App.css": "/joy-and-serenity-candle/static/media/logo-leaves-candle.83b8bdc4.jpg",
-    "static/media/sections.css": "/joy-and-serenity-candle/static/media/wood-bw.2b621688.jpg"
+    "main.css": "/soleil/static/css/main.0929d21e.chunk.css",
+    "main.js": "/soleil/static/js/main.5d564336.chunk.js",
+    "main.js.map": "/soleil/static/js/main.5d564336.chunk.js.map",
+    "runtime-main.js": "/soleil/static/js/runtime-main.8d690266.js",
+    "runtime-main.js.map": "/soleil/static/js/runtime-main.8d690266.js.map",
+    "static/js/2.0022846c.chunk.js": "/soleil/static/js/2.0022846c.chunk.js",
+    "static/js/2.0022846c.chunk.js.map": "/soleil/static/js/2.0022846c.chunk.js.map",
+    "index.html": "/soleil/index.html",
+    "static/css/main.0929d21e.chunk.css.map": "/soleil/static/css/main.0929d21e.chunk.css.map",
+    "static/js/2.0022846c.chunk.js.LICENSE.txt": "/soleil/static/js/2.0022846c.chunk.js.LICENSE.txt",
+    "static/media/about-candle.7dcfacee.png": "/soleil/static/media/about-candle.7dcfacee.png",
+    "static/media/about-photo.0346e4ec.png": "/soleil/static/media/about-photo.0346e4ec.png",
+    "static/media/App.css": "/soleil/static/media/logo-leaves-candle.83b8bdc4.jpg",
+    "static/media/sections.css": "/soleil/static/media/wood-bw.2b621688.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.50a32544.js",
-    "static/js/2.a6a878f1.chunk.js",
-    "static/css/main.0559be4d.chunk.css",
-    "static/js/main.946c45f0.chunk.js"
+    "static/js/runtime-main.8d690266.js",
+    "static/js/2.0022846c.chunk.js",
+    "static/css/main.0929d21e.chunk.css",
+    "static/js/main.5d564336.chunk.js"
   ]
 }
